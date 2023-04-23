@@ -1,0 +1,5 @@
+@import url("./theme/base.css");
+html,
+body {
+  background: var(--xes-gray-5);
+}

@@ -1,0 +1,28 @@
+{
+  "name": "rspack-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env BUILD_TARGET=development rspack serve",
+    "build:test": "cross-env BUILD_TARGET=test rspack build --test",
+    "build": "cross-env BUILD_TARGET=production rspack build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rspack/cli": "^0.3.0",
+    "@rspack/plugin-node-polyfill": "^0.3.0",
+    "core-js": "^3.32.1",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.47.0",
+    "prettier": "^3.0.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.15.0"
+  },
+  "devDependencies": {
+    "eslint-plugin-react": "^7.33.2"
+  }
+}
